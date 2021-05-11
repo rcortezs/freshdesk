@@ -13,6 +13,7 @@ var portalCurrentPage = {{portal.current_page}}
 
 if(portalName == "PBA") {
     //Redireccionar a DTD si es 8, y a CF si es 9
+    /*
     if(portalUserMobile == 8) {
         window.location.replace("http://att.dtd.productos-iot.mx/es-LA/support/tickets");
         alert("Redireccionando a portal de DTD, volver a iniciar sesión si lo pide")
@@ -21,11 +22,11 @@ if(portalName == "PBA") {
         alert("Redireccionando a portal de CF, volver a iniciar sesión si lo pide") 
     }
 
-
+*/
 
 
 } else if(portalName == "Door to Door") {
-
+/*
     // Redireccionar a PBA si es < 4, y a CF si es 9
     if(portalUserMobile < 4) {
         window.location.replace("http://att.pba.productos-iot.mx/es-LA/support/tickets");
@@ -34,7 +35,7 @@ if(portalName == "PBA") {
         window.location.replace("http://att.cf.productos-iot.mx/es-LA/support/tickets");
         alert("Redireccionando a portal de CF, volver a iniciar sesión si lo pide") 
     }
-
+*/
 
 
 
@@ -42,7 +43,7 @@ if(portalName == "PBA") {
 
 
 }else if(portalName == "Control Flotilla") {
-
+/*
     //Redireccionar a PBA si es <4, y a DTD si es 8
     if(portalUserMobile < 4) {
         window.location.replace("http://att.pba.productos-iot.mx/es-LA/support/tickets");
@@ -52,7 +53,7 @@ if(portalName == "PBA") {
         alert("Redireccionando a portal de DTD, volver a iniciar sesión si lo pide")
     }
 
-
+*/
 //Esconder y poblar tickets
 
 if(portalCurrentPage == "submit_ticket"){
