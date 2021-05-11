@@ -1,3 +1,4 @@
+
 /*
 var portalUserMobile = {{portal.user.mobile}}
 var portalName = {{portal.name}}
